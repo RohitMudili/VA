@@ -5,12 +5,11 @@ import logging
 from pathlib import Path
 from dotenv import load_dotenv
 
-# Load environment variables from backend directory
-backend_env_path = Path(__file__).parent / "backend" / ".env"
-if backend_env_path.exists():
-    load_dotenv(backend_env_path)
+# Load environment variables
+env_path = Path(__file__).parent / ".env"
+if env_path.exists():
+    load_dotenv(env_path)
 else:
-    # Fallback to root directory .env
     load_dotenv()
 
 # Setup logging
@@ -49,7 +48,7 @@ def check_required_env_vars():
     
     if missing_vars:
         logger.error(f"Missing required environment variables: {', '.join(missing_vars)}")
-        logger.error("Please check your backend/.env file and ensure all required variables are set")
+        logger.error("Please check your .env file and ensure all required variables are set")
         logger.error("Run './setup-env.sh' to create environment files from templates")
         return False
     
@@ -57,7 +56,7 @@ def check_required_env_vars():
 
 if __name__ == "__main__":
     try:
-        logger.info("Starting Esmagico AI Voice Agent production server...")
+        logger.info("Starting Echovest Voice Agent production server...")
         
         # Check environment variables
         if not check_required_env_vars():
@@ -73,7 +72,7 @@ if __name__ == "__main__":
         logger.info(f"CORS origins: {cors_origins}")
         
         # Import and run the FastAPI app directly
-        from backend.server import app
+        from server import app
         import uvicorn
         
         uvicorn.run(
@@ -87,7 +86,7 @@ if __name__ == "__main__":
         
     except ImportError as e:
         logger.error(f"Import error: {e}")
-        logger.error("Make sure all dependencies are installed: pip install -r backend/requirements.txt")
+        logger.error("Make sure all dependencies are installed: pip install -r requirements.txt")
         sys.exit(1)
     except Exception as e:
         logger.error(f"Server error: {e}")
