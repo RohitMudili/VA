@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+    margin: 2rem;
+  }
+  
+  button {
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+  
+  #log {
+    margin-top: 1rem;
+    list-style: none;
+    padding: 0;
+  }
+  
+  #log li {
+    margin-bottom: 0.5rem;
+  }
+  

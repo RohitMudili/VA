@@ -1,0 +1,169 @@
+SONIC AI - Voice Agent Website Content & Design Guide
+
+=== BRAND IDENTITY ===
+Brand Name: SONIC AI
+Tagline: "Transform Your Business with AI Voice Agents"
+Primary Color: Blue (#0A64BC, #2563EB)
+Secondary Colors: Gray (#6B7280, #374151), White (#FFFFFF)
+Accent Colors: Green (#10B981), Orange (#F59E0B)
+
+=== WEBSITE STRUCTURE ===
+
+1. HOMEPAGE (/)
+   - Hero Section
+   - Features Section
+   - Statistics Banner
+   - Voice Visualization Demo
+   - Testimonials
+   - FAQ Section
+   - CTA Section
+
+2. AI VOICE AGENTS PAGE (/ai-voice-agents)
+   - Detailed product information
+   - Use cases and benefits
+   - Integration examples
+
+3. VOICE AGENT DEMO PAGE (/voice-agent)
+   - Interactive voice agent demo
+   - Real-time voice visualization
+   - Call simulation interface
+
+=== CONTENT COPY ===
+
+HERO SECTION:
+Headline: "Transform Your Business with AI Voice Agents"
+Subheadline: "Automate customer interactions, boost efficiency, and provide 24/7 support with our advanced AI voice technology."
+CTA: "Start Free Trial" / "Book Demo"
+
+FEATURES:
+1. 24/7 Availability
+   - Never miss a customer call
+   - Round-the-clock support
+   - Instant response times
+
+2. Natural Conversations
+   - Human-like interactions
+   - Context-aware responses
+   - Multi-language support
+
+3. Easy Integration
+   - Simple API setup
+   - CRM integration
+   - Custom workflows
+
+4. Advanced Analytics
+   - Call insights
+   - Performance metrics
+   - Customer satisfaction tracking
+
+STATISTICS:
+- 99.9% Uptime
+- 50+ Languages
+- 10,000+ Businesses
+- 24/7 Support
+
+TESTIMONIALS:
+"SONIC AI has revolutionized our customer service. Our response times improved by 80%."
+- Sarah Johnson, CEO of TechCorp
+
+"The natural conversation flow is incredible. Customers can't tell it's AI."
+- Mike Chen, Customer Success Manager
+
+FAQ SECTION:
+Q: How quickly can I set up SONIC AI?
+A: Most businesses are up and running within 24 hours.
+
+Q: Does it integrate with existing systems?
+A: Yes, we support all major CRM and business tools.
+
+Q: What languages are supported?
+A: We support over 50 languages with native-level fluency.
+
+=== DESIGN SPECIFICATIONS ===
+
+TYPOGRAPHY:
+- Primary Font: Inter (sans-serif)
+- Headings: Bold weights (600-700)
+- Body Text: Regular weight (400)
+- Font Sizes: Responsive (text-sm to text-6xl)
+
+COLOR PALETTE:
+- Primary Blue: #0A64BC
+- Secondary Blue: #2563EB
+- Dark Gray: #374151
+- Medium Gray: #6B7280
+- Light Gray: #F3F4F6
+- Success Green: #10B981
+- Warning Orange: #F59E0B
+- White: #FFFFFF
+
+LAYOUT:
+- Container Max Width: 1200px
+- Section Padding: py-16 to py-24
+- Grid System: CSS Grid and Flexbox
+- Responsive Breakpoints: sm (640px), md (768px), lg (1024px), xl (1280px)
+
+COMPONENTS:
+- Buttons: Rounded corners (rounded-lg), hover effects
+- Cards: Shadow effects, rounded corners
+- Voice Visualization: Circular design with animated bars
+- Navigation: Sticky header, mobile hamburger menu
+- Forms: Validation, error states, success feedback
+
+ANIMATIONS:
+- Fade in/out transitions
+- Hover effects on interactive elements
+- Voice visualization animations
+- Smooth scrolling
+- Loading states
+
+=== TECHNICAL SPECIFICATIONS ===
+
+FRAMEWORK: Next.js 14 with App Router
+STYLING: Tailwind CSS
+COMPONENTS: shadcn/ui
+ICONS: Lucide React
+ANIMATIONS: CSS animations and transitions
+RESPONSIVE: Mobile-first design approach
+
+=== SEO CONTENT ===
+
+Meta Title: "SONIC AI - Advanced AI Voice Agents for Business"
+Meta Description: "Transform your business with SONIC AI's advanced voice agents. 24/7 customer support, natural conversations, easy integration. Start your free trial today."
+
+Keywords: AI voice agents, automated customer service, voice AI, business automation, customer support AI, conversational AI, voice technology
+
+=== CONTACT INFORMATION ===
+
+Demo Request: Available through contact forms
+Support: 24/7 customer support
+Integration: API documentation and developer resources
+Pricing: Custom pricing based on usage and features
+
+=== CALL-TO-ACTION MESSAGING ===
+
+Primary CTA: "Start Free Trial"
+Secondary CTA: "Book Demo"
+Tertiary CTA: "Learn More"
+
+Button Copy Variations:
+- "Get Started Today"
+- "Try SONIC AI Free"
+- "Schedule Demo"
+- "Contact Sales"
+- "Start Your Journey"
+
+=== TRUST SIGNALS ===
+
+- 99.9% Uptime Guarantee
+- SOC 2 Compliant
+- GDPR Compliant
+- Enterprise Security
+- 24/7 Support
+- Money-back Guarantee
+
+=== SOCIAL PROOF ===
+
+Customer Logos: TechCorp, InnovateCo, GlobalTech, StartupXYZ
+Industry Recognition: "Best AI Voice Solution 2024"
+Certifications: ISO 27001, SOC 2 Type II

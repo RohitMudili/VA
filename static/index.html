@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Agent</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .controls {
+            margin: 20px 0;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        #log {
+            border: 1px solid #ccc;
+            padding: 10px;
+            height: 300px;
+            overflow-y: auto;
+            margin-top: 20px;
+        }
+        #log li {
+            margin: 5px 0;
+            list-style-type: none;
+        }
+        .hidden {
+            display: none;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Voice Agent</h1>
+    
+    <div class="controls">
+        <button id="join" type="button">Join Room</button>
+        <button id="start-agent" type="button" class="hidden">Start Agent</button>
+    </div>
+
+    <div id="log"></div>
+
+    <!-- Load LiveKit client first -->
+    <script type="module">
+        // Add error handling for script loading
+        window.addEventListener('error', function(e) {
+            console.error('Script loading error:', e);
+            const log = document.getElementById('log');
+            if (log) {
+                const li = document.createElement('li');
+                li.className = 'error';
+                li.textContent = `Error loading script: ${e.message}`;
+                log.appendChild(li);
+            }
+        });
+    </script>
+    <!-- Load LiveKit client locally -->
+    <script type="module" src="/static/js/livekit-client.esm.mjs"></script>
+    <!-- Then load our app -->
+    <script type="module" src="/static/voice_agent.js"></script>
+</body>
+</html>

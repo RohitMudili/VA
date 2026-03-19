@@ -1,0 +1,32 @@
+# Render Blueprint for Echovest Backend
+# https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: echovest-backend
+    runtime: python
+    region: oregon
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: python server.py
+    healthCheckPath: /health
+    envVars:
+      - key: LIVEKIT_URL
+        sync: false
+      - key: LIVEKIT_API_KEY
+        sync: false
+      - key: LIVEKIT_API_SECRET
+        sync: false
+      - key: DEEPGRAM_KEY
+        sync: false
+      - key: GOOGLE_API_KEY
+        sync: false
+      - key: CARTESIA_API_KEY
+        sync: false
+      - key: BACKEND_PORT
+        value: "10000"
+      - key: CORS_ORIGINS
+        sync: false
+      - key: PYTHON_VERSION
+        value: "3.11.4"

@@ -1,0 +1,17 @@
+# SONIC AI - Next-Gen Voice Agents for Smarter Conversations
+
+> SONIC AI delivers intelligent voice agents that understand context, respond naturally, and drive meaningful outcomes for your business.
+
+SONIC AI is a cutting-edge voice technology platform that combines advanced natural language processing with emotional intelligence to create truly human-like conversations. Our proprietary voice agents help businesses automate customer interactions, schedule appointments, capture information, and perform follow-up actions with unprecedented accuracy and natural communication.
+
+## Main Features
+
+## How It Works
+
+## Use Cases
+
+## Resources
+
+## Pricing
+
+## Contact
